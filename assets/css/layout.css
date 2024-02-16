@@ -1,0 +1,191 @@
+body {
+    background-color:lightskyblue;
+    color: #333;
+  }
+  
+  .head {
+    margin-left: 45%;
+    color: #333;
+  
+  }
+  .head:hover{
+    color:grey;  
+  }
+  
+  .actions {
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 35%;
+  }
+  
+  .links {
+    margin-left: 20px;
+    width: 15%;
+    height: 60px;
+    margin-right: 20px;
+    padding-left: 32px;
+    padding-top: 20px;
+  }
+  
+  .links a {
+    color: #333;
+    font-size: 18px;
+  }
+  
+  .links a:hover{
+    color: grey;
+  }
+ .form {
+  margin: 0 auto;
+  max-width: 400px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-input input {
+  height: 40px;
+  width: calc(100% - 20px);
+  margin-bottom: 15px;
+  border-radius: 6px;
+  border: 2px solid #ddd;
+  padding: 10px;
+  font-size: 16px;
+  transition: border-color 0.3s;
+}
+
+.form-input input:focus {
+  outline: none;
+  border-color: #0077b5;
+}
+
+.form-input2 input {
+  height: 40px;
+  width: calc(100% - 20px);
+  margin-bottom: 15px;
+  border-radius: 6px;
+  border: 2px solid #ddd;
+  padding: 10px;
+  font-size: 16px;
+  transition: border-color 0.3s;
+}
+
+.form-input2 input:focus {
+  outline: none;
+  border-color: #0077b5;
+}
+
+.form-input2 input::placeholder {
+  color: #999;
+}
+
+.btn-submit {
+  height: 40px;
+  width: calc(100% - 20px);
+  background-color: #0077b5;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-submit:hover {
+  background-color: #005f88;
+}
+
+
+  
+  .headings {
+    margin-left: 50%;
+    color: #333;
+    margin-top: 20px;
+  }
+  
+  .headings a {
+    margin-left: 40%;
+    color: #333;
+    margin-top: 20px;
+    text-decoration: none;
+  }
+  
+  .threeInput {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+  }
+  
+  .threeSubInput {
+    width: 60%;
+    padding-right: 30px;
+  }
+  
+  .subInput {
+    width: 100%;
+  }
+  
+  .studentCard {
+    padding: 15px;
+    width: 30%;
+    background-color: lightgray;
+    margin-left: 20px;
+    border-radius: 8px;
+  }
+  
+  .score {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .studentCardActions {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+  }
+  
+  input:disabled {
+    background: #dddddd;
+    cursor: not-allowed;
+  }
+  
+  .student_list_container {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .links-footer {
+    margin-left: 20px;
+    height: 60px;
+    margin-right: 20px;
+    padding-top: 20px;
+  }
+  
+  .name {
+    margin-top: 10px;
+  }
+  
+  .cardLinks {
+    width: 50%;
+  }
+  
+  .cardLinks a {
+    color: #333;
+  }
+  
+  .scoreSub {
+    width: 33%;
+    margin-top: 20px;
+  }
+  
+  .cardHead {
+    font-size: 24px;
+  }
+  
+  .scoreHead {
+    margin-top: 20px;
+  }
+  

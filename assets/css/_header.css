@@ -1,0 +1,35 @@
+/* General styles */
+.header {
+    background-color: midnightblue;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.header h1:hover{
+    color: lightskyblue;
+}
+
+.main {
+    display: flex;
+}
+
+.main a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.main a:hover {
+    background-color: lightpink;
+    color: #333;
+}
